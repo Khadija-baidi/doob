@@ -128,7 +128,31 @@ justify-content: center;
     color: rgb(52, 52, 176);
     padding: 10px;
  }
-
+ footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:55px ;
+    gap: 20px;
+    background-color: #1a1a5f;
+    color: white;
+ }
+ footer>h1{
+    color: red;
+ }
+ .tag>a{
+    color: white;
+    gap: 30px;
+ }
+ .tag{
+    display: flex;
+    gap: 50px;
+ }
+.icons{
+  display: flex;
+  gap: 30px;
+  padding-bottom: 6vh;
+}
 
  
   
