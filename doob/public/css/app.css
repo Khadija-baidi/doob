@@ -177,7 +177,7 @@ form>input:focus , textarea{
     outline: none;
 }
 .but{
- width: 70%;
+ width: 80%;
 
  display: flex;
  justify-content: center;
@@ -192,7 +192,71 @@ form>input:focus , textarea{
     text-align: center;
 }
 
+#checkbox , label{
+    display: none;
+}
+@media (max-width: 428px) {
+.lwst{
+    top:0 ;
+    padding: 20px;
+    position: fixed;
+     right: 100vh; 
+    flex-direction: column;
+    gap: 5vh;
+    font-size: xx-large;
+    background-color:white;
+    box-shadow: 0.5px 0.5px 1px 1px #80808021;
+    width: 20vh;
+    padding-left: 10vh;
+    height: 100vh;
+}
+label{
+    display: block;
+}
+#checkbox:checked+ .lwst{
+     right: 0;
+}
+.right{
+    display: none;
+}
+.tanya{
+    flex-direction: column-reverse;
+}
+.gauche{
+    width: 70vw;
+}
+.gauche>h1{
+    width: 100%;
+}
+.parent{
+    flex-direction: column;
+    
+}
+.talta , .graphic , .webdev{
+    width: 70vw;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
 
- 
-  
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form>input{
+    width: 80px;
+   
+}
+textarea{
+    width: 60vw;
+}
+.tag{
+    flex-direction: column;
+    text-align: center;
+}
+}
+
  
