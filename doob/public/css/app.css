@@ -39,3 +39,64 @@ justify-content: center;
     align-items: center;
     justify-content: space-between;
 }
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 15vh;
+}
+.talta{
+    width: 15%;
+    color: #1a1a5f; 
+    display: flex;
+    flex-direction: column;
+    gap: 2vh; 
+}
+
+.talta>a{
+    width: 50%;
+    color: white;
+    background-color: rgb(202, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.graphic{
+    padding: 25px;
+    width: 15%;
+    padding-left: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    box-shadow: 0.5px 0.5px 2px 2px rgba(128, 128, 128, 0.199);
+}
+
+.graphic>p{
+  font-size: medium;
+  width: 90%;
+  
+}
+
+
+.graphic>h1{
+  color:#1a1a5f ;
+  width: 90%;
+}
+.webdev{  padding: 25px;
+    width: 15%;
+    padding-left: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    box-shadow: 0.5px 0.5px 2px 2px rgba(128, 128, 128, 0.199);
+}
+.webdev>p{
+    font-size: medium;
+    width: 90%;
+    
+  }
+  
+  .webdev>h1{
+    color:#1a1a5f ;
+    width: 90%;
+  }
